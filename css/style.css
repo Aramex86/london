@@ -368,6 +368,7 @@ select {
     color: #2c3e50;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 4px;
 }
 .more-ap button:hover{
     background-color: rgba(69, 136, 242, 0.31);
@@ -415,6 +416,8 @@ select {
 .thirdblockwrap{
     background-color: #000000;
     text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
 }
 .thirdblockwrap p{
     color: #ffff;
@@ -432,7 +435,105 @@ select {
     padding-bottom: 50px;
 }
 .thirdblockwrap button{
+    background-color: #4588f2;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    color: #ffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: proportional-nums;
+}
+/*third bock*/
+.bx-wrapper{
+    max-width: 1721px !important;
+}
+.people{
+    text-align: center;
+}
+.people span:after{
+    content: "";
+    border-bottom: 1px solid rgba(170, 178, 189, 0.71);
+    display: block;
+    width: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.name{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 7px;
+}
+.prof{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #aab2bd;
+    font-variant: small-caps;
+    margin-bottom: 22px;
+}
+.peoplewrap{
+    position: relative;
+}
+.text{
+    text-align: center;
+    padding: 0 32px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color:  #777777;
+    font-size: 16px;
+    line-height: 18px;
 
 }
-
-
+.peoplepic {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bx-wrapper{
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    border: none;
+    background: #fff;
+}
+.bx-wrapper .bx-controls-direction a{
+    position: absolute;
+    top: 109%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.bx-wrapper .bx-next{
+  right: 46%;
+    background-image: url("../image/bxarrows/arrownext.png");
+    background: url("../image/bxarrows/arrownext.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus{
+    background-position: 0  0;
+}
+.bx-wrapper .bx-prev{
+    left: 46%;
+    background: url(../image/bxarrows/arrowprev.png);
+    background-image: url(../image/bxarrows/arrowprev.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+.slidercount{
+    position: absolute;
+    left: 48.5%;
+    top: 105%;
+}
