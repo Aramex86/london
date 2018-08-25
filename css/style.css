@@ -629,6 +629,7 @@ select {
 .footermenuwrap{
     padding-top: 10%;
     display: flex;
+    justify-content: space-between;
 }
 /*end partners*/
 .footermenuwrap h4{
@@ -639,6 +640,107 @@ select {
 }
 .contact p{
     color: #ffffff;
+    margin-left: 7%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
 }
-
-
+.contact img{
+    position:absolute ;
+    margin-top:7px;
+}
+.contact li{
+    margin-bottom: 5%;
+    width: 87%;
+}
+.footermenuwrap span:after{
+    content:"";
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    width: 34px;
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+.quick-link li{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 27px;
+}
+.quick-link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.quick-link a:hover{
+    color: #0089f6;
+}
+.information li{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 27px;
+}
+.information a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.information a:hover{
+    color: #0089f6;
+}
+.our-policy li{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 27px;
+}
+.our-policy a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.our-policy a:hover{
+    color: #0089f6;
+}
+.newsletter{
+    position: relative;
+}
+.newsletter p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 27px;
+    width: 70%;
+}
+.newsletter input{
+    height: 18%;
+    width: 55%;
+}
+.newsletter button{
+    width: 71px;
+    height: 50px;
+    position: absolute;
+    left: 55%;
+    background-color: #0089f6;
+    border: none;
+    color: #ffff;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.newsletter li{
+    color: #ffffff;
+    display: inline-block;
+    padding: 35px 7px;
+}
+.copyright{
+    color: #696969;
+    text-align: center;
+    padding-top: 123px;
+    padding-bottom: 25px;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+}
+.copyright span{
+    color: #0089f6;
+}

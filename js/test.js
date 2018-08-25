@@ -6,6 +6,8 @@ $(document).ready(function () {
             moveSlides: 1,
             slideWidth: 370,
             pager:false,
+            randomStart:true,
+
         });
 
     });
