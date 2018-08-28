@@ -635,6 +635,7 @@ select {
 }
 .article{
     width: 100%;
+    position: relative;
 }
 .article p:nth-child(2){
     margin-bottom: 17px;
@@ -696,6 +697,20 @@ select {
 .article a:hover{
     color: #4588f2;
 }
+.article-hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 94%;
+    height: 60%;
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    outline: 10px solid #96989a;
+    outline-offset: -10px;
+    background-image: url("../image/bxarrows/bloghover.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /*end our blog*/
 .patners{
     width: 100%;
@@ -706,7 +721,6 @@ select {
     padding-bottom: 10%;
     padding-right: 77px;
 }
-/*end our partners*/
 .footerwrap{
     background-color: #040404;
 }
@@ -815,7 +829,10 @@ select {
 .newsletter li{
     color: #ffffff;
     display: inline-block;
-    padding: 35px 7px;
+    padding: 51px 15px;
+}
+.newsletter li:first-of-type{
+    padding-left: 0;
 }
 .copyright{
     color: #696969;
