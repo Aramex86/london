@@ -1,5 +1,5 @@
 .sitecontainer{
-    max-width: 1721px;
+  /*  max-width: 1721px;*/
     margin-left: auto;
     margin-right: auto;
     padding: 0 101px;
@@ -100,6 +100,28 @@
     width: 100%;
     height: 728px;
 }
+.image-topwrap a{
+    position: absolute !important;
+    top: 25% !important;
+}
+.image-topwrap a:nth-child(1){
+    left: 5%;
+    background-image: url("../image/arrowprevtop.png");
+    background-size: 27px 50px;
+    width: 27px!important;
+    height: 50px !important;
+    opacity: 0.2;
+}
+.image-topwrap a:nth-child(2){
+    right: 5%;
+    background-image: url("../image/arrownexttop.png");
+    background-size: 27px 50px;
+    width: 27px!important;
+    height: 50px !important;
+    opacity: 0.2;
+}
+
+
 /*end header*/
 
 /*end navigation*/
@@ -114,6 +136,7 @@
     left: 25%;
     right: 25%;
     text-align: center;
+    z-index: 999;
 }
 .slider-intro h3{
     font-size: 50px;
@@ -328,6 +351,39 @@ select {
     border-radius: 50px;
     border: 1px solid rgba(243, 243, 243, 0.26);
 }
+.sliderwrap{
+    position: relative;
+}
+.sliderwrap a{
+    position: absolute !important;
+    top: 35% !important;
+}
+.sliderwrap a:nth-child(1){
+    left: -37px;
+    background-image: url(../image/arrowleft.png);
+    background-size: 45px 45px;
+    display: block;
+    border: 1px solid white;
+    background-color: #ffff;
+    border-radius: 50%;
+    width: 70px!important;
+    height: 70px !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+}
+.sliderwrap a:nth-child(2){
+    right: -37px;
+    background-image: url(../image/arrowright.png);
+    background-size: 45px 45px;
+    display: block;
+    border: 1px solid white;
+    background-color: #ffff;
+    border-radius: 50%;
+    width: 70px!important;
+    height: 70px !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+}
 .next1{
     left:97%;
 }
@@ -534,9 +590,7 @@ select {
 .testimonialswrap{
     margin-bottom: 150px;
 }
-.bx-wrapper{
-    max-width: 1721px !important;
-}
+
 .people{
     text-align: center;
 }
