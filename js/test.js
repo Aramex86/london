@@ -11,7 +11,7 @@ $(document).ready(function () {
         $('.slider').bxSlider({
         moveSlides: 1,
         maxSlides:5,
-        slideWidth: 280,
+        slideWidth: 365,
         pager: false,
         randomStart: true,
     });

@@ -1,5 +1,5 @@
 .sitecontainer{
-  /*  max-width: 1721px;*/
+    max-width: 1721px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 101px;
@@ -242,6 +242,7 @@ input::-moz-placeholder{
     background-repeat: no-repeat;
     background-position: 20px;
     color: #9e9e9e;
+    background-color: white;
 }
 select {
     text-align-last: left;
@@ -257,12 +258,14 @@ select {
     background-repeat: no-repeat;
     background-position: 20px;
     color: #9e9e9e;
+    background-color: white;
 }
 .checkin{
     width: 274px;
     height: 49px;
     margin-right: 31px;
     border: 1px solid #f0f0f0;
+    background-color: white;
 }
 .duration{
     width: 274px;
@@ -273,12 +276,14 @@ select {
     background-repeat: no-repeat;
     background-position: 20px;
     color: #9e9e9e;
+    background-color: white;
 }
 .checkout{
     width: 99px;
     height: 49px;
     margin-right: 120px;
     border: 1px solid #f0f0f0;
+    background-color: white;
 }
 #search{
     width: 274px;
