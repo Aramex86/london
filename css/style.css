@@ -327,7 +327,6 @@ select {
     height: 420px;
 }
 .firstblockwrap {
-    margin-bottom: 146px;
     margin-top: 300px;
 }
 .city-name{
@@ -417,7 +416,7 @@ select {
 }
 .title button{
     margin-top: 50px;
-    margin-bottom: 68px;
+    margin-bottom: 50px;
     background-color: initial;
     width: 150px;
     height: 49px;
