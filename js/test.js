@@ -14,6 +14,7 @@ $(document).ready(function () {
         slideWidth: 365,
         pager: false,
         randomStart: true,
+        auto:true,
     });
     $('.headerslider').bxSlider({
         pager:false,
