@@ -24,7 +24,7 @@
     .article-hover{
         background-color: rgba(0, 0, 0, 0.4);
         width: 96%;
-        height: 60%;
+        height: 61%;
         position: absolute;
         top: 0;
         left: 2%;
@@ -553,27 +553,31 @@
         flex-direction: column;
     }
     .article-hover {
-
-    }
-    .articleimg {
-        padding: 0 10px;
-        height: 60%;
-        margin-bottom: 20px;
-        margin-top: 25px;
-    }
-    .third{
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 97.5%;
-        height: 65.5%;
+        background-color: rgba(0, 0, 0, 0.36);
+        width: 98%;
+        height: 363px;
         position: absolute;
-        top: 26px;
+        top: 0;
         left: 1%;
         outline: 10px solid #96989a;
         outline-offset: -7px;
-        background-image: url(../image/bxarrows/bloghover.png);
+        background-image: url("../image/bxarrows/bloghover.png");
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: center ;
     }
+
+    .articleimg {
+        padding: 0 10px;
+        height: 75%;
+        margin-bottom: 20px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .articleimg img{
+        width: 100%;
+        height: 363px;
+    }
+
     .our-blogwrap {
         margin-bottom: 150px;
     }
@@ -597,5 +601,76 @@
         height: 18%;
         width: 55%;
     }
+    /*mobile-menu*/
+    hr{
+        display: none;
+    }
+    .menu-top{
+        display: none;
+    }
+    .logo-topwrap button{
+        display: none;
+    }
+    .weather-top li:nth-child(2){
+        display: none;
+    }
+    .weather-top li:nth-child(3){
+        display: none;
+    }
+    .weather-top{
+        position: relative;
+        top: 38px;
+    }
+    .contact-top{
+        display: none;
+    }
+    .logo-topwrap{
+        width: 100px;
+        display: block;
+        justify-content: unset;
+        width: 135px;
+    }
+    .mobile-menuwrap{
+        height: 100vh;
+        width: 100%;
+    }
+    .mobile-menu{
+        margin-top: 50px;
 
+    }
+    .mobile-menu ul{
+        padding: 0 10px;
+    }
+    .mobile-menu li{
+        padding: 17px 55px;
+        color: #2c3e50;
+        font-variant: all-small-caps;
+        font-family: Montserrat ,sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+        border: 1px solid rgba(182, 183, 185, 0.61);
+        margin-bottom: 1px;
+        text-decoration: none;
+        color: #34495e;
+    }
+    .mobile-menu a{
+        text-decoration: none;
+        color: #34495e;
+    }
+    .mobile{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .menubtn{
+        background: initial;
+        border: none;
+        background-image: url(../image/mobilemenu.png);
+        width: 30px;
+        height: 25px;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
 }

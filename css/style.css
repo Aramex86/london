@@ -698,6 +698,7 @@ select {
 .article{
     width: 100%;
     position: relative;
+    margin-bottom: 25px;
 }
 .article p:nth-child(2){
     margin-bottom: 17px;
@@ -761,14 +762,14 @@ select {
 }
 .article-hover{
     background-color: rgba(0, 0, 0, 0.4);
-    width: 94%;
-    height: 60%;
+    width: 96%;
+    height: 52%;
     position: absolute;
     top: 0;
-    left: 3%;
+    left: 2%;
     outline: 10px solid #96989a;
     outline-offset: -10px;
-    background-image: url("../image/bxarrows/bloghover.png");
+    background-image: url(../image/bxarrows/bloghover.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -907,3 +908,4 @@ select {
 .copyright span{
     color: #0089f6;
 }
+
