@@ -908,4 +908,10 @@ select {
 .copyright span{
     color: #0089f6;
 }
-
+/*mobile menu*/
+.mobile-menuheadwrap{
+    display: none;
+}
+.mobile-menuwrap{
+    display: none;
+}
