@@ -1395,12 +1395,6 @@
         background-size: 16px;
         background-repeat: no-repeat;
     }
-    .add {
-        width: 98%;
-        height: 231px;
-        position: absolute;
-        top: 0%;
-    }
 }
 @media screen and (max-width: 640px){
     .title h3 {
