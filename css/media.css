@@ -1053,6 +1053,17 @@
     .search-top li {
         padding: 0px 2px;
     }
+    .location {
+        width: 100%;
+        height: 50px;
+        margin-right: 0;
+        background-image: url(../image/map.png);
+        background-repeat: no-repeat;
+        background-position: 20px;
+        border: 1px solid #f0f0f0;
+    }
+
+
     .guest {
         width: 320px;
         height: 35px;
@@ -1331,6 +1342,13 @@
         padding-bottom: 0;
         flex-direction: column;
     }
+    .articleimg {
+        padding: 0 10px;
+        height: 67%;
+        margin-bottom: 20px;
+        margin-top: 0;
+        width: 100%;
+    }
     .contact{
         margin-bottom: 25px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -1578,6 +1596,16 @@
         background: url(../image/bxarrows/arrownext.png);
         background-size: 16px;
         background-repeat: no-repeat;
+    }
+    .articleimg {
+        padding: 0 10px;
+        height: 0;
+        margin-bottom: 20px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .article-text{
+        margin-top: 100%;
     }
 
 }

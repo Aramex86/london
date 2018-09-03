@@ -112,6 +112,7 @@
     height: 50px !important;
     opacity: 0.2;
 }
+
 .image-topwrap a:nth-child(2){
     right: 5%;
     background-image: url("../image/arrownexttop.png");
@@ -120,7 +121,14 @@
     height: 50px !important;
     opacity: 0.2;
 }
-
+.image-topwrap a:nth-child(1):hover{
+    opacity: 0.6;
+    transition: all 1s ease;
+}
+.image-topwrap a:nth-child(2):hover{
+    opacity: 0.6;
+    transition: all 1s ease;
+}
 
 /*end header*/
 
@@ -441,7 +449,9 @@ select {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 14px;
+    display: none;
 }
+
 .hoverroom ul:nth-child(1){
     padding-top: 217px;
 }
@@ -545,6 +555,7 @@ select {
 .like:hover {
     background-color: #0089f6;
 }
+
 /*end srcond block*/
 .thirdblockwrap{
     background-color: #000000;
@@ -688,8 +699,15 @@ select {
     position: relative;
     margin-bottom: 25px;
 }
-.article p:nth-child(2){
+.article-text p:nth-child(1){
     margin-bottom: 17px;
+}
+.article-text p:nth-child(3){
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #b1b1b1;
+    line-height: 21px;
 }
 .articleimg{
     padding: 0 10px;
@@ -700,6 +718,7 @@ select {
     width: 100%;
     height: 100%;
 }
+
 .date{
     color: #aab2bd;
     font-family: Montserrat, sans-serif;
@@ -724,28 +743,22 @@ select {
     font-size: 14px;
     color: black;
 }
-.article h4{
+.article-text h4{
     font-size: 20px;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 17px;
 }
-.article p:nth-child(4){
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #777777;
-    margin-bottom: 10px;
-}
-.article a{
+
+.article-text a{
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: #2c3e50;
     text-decoration: none;
 }
-.article a:hover{
+.article-text a:hover{
     color: #4588f2;
 }
 .article-hover{
@@ -760,6 +773,7 @@ select {
     background-image: url(../image/bxarrows/bloghover.png);
     background-repeat: no-repeat;
     background-position: center center;
+    display: none;
 }
 
 /*end our blog*/
