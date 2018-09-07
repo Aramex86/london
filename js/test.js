@@ -164,41 +164,39 @@ $(document).ready(function () {
           $(this).removeClass('active');
        });
     });
-    $('.day').on('click', function () {
-        $('.apartaments').eq(0).fadeOut(1000);
-        $('.apartaments').eq(1).fadeOut(1000);
-        $('.apartaments').eq(2).fadeOut(1000);
-        $('.apartaments').eq(3).fadeIn(1000);
-        $('.apartaments').eq(4).fadeIn(1000);
-        $('.apartaments').eq(5).fadeIn(1000);
-        $('.all').text('VIEW ALL');
-    });
-    $('.month').on('click', function () {
-        $('.apartaments').eq(3).fadeOut(1000);
-        $('.apartaments').eq(4).fadeOut(1000);
-        $('.apartaments').eq(5).fadeOut(1000);
-        $('.apartaments').eq(0).fadeIn(1000);
-        $('.apartaments').eq(1).fadeIn(1000);
-        $('.apartaments').eq(2).fadeIn(1000);
-        $('.all').text('VIEW ALL');
-    });
-    $('.all').on('click',function () {
-        $('.apartaments').eq(0).fadeIn(1000);
-        $('.apartaments').eq(1).fadeIn(1000);
-        $('.apartaments').eq(2).fadeIn(1000);
-        $('.apartaments').eq(3).fadeIn(1000);
-        $('.apartaments').eq(4).fadeIn(1000);
-        $('.apartaments').eq(5).fadeIn(1000);
-        $(this).text('LOAD MORE');
 
+   $('.day').click(function () {
+     $.each([6,4,8,2,10,11],function (i ,hide) {
+         $('.apartaments').eq(hide).fadeIn(1000);
+     });
+       $.each([0,1,9,3,7,5],function (i , show) {
+           $('.apartaments').eq(show).fadeOut(1000);
+       });
+   });
+   $('.month').click(function () {
+      $.each([0,10,2,8,4,11],function (i , show) {
+         $('.apartaments').eq(show).fadeIn(1000);
+      });
+       $.each([6,7,3,9,1,5],function (i ,hide) {
+           $('.apartaments').eq(hide).fadeOut(1000);
+       });
+   });
+    $('.all').click(function () {
+       $.each([0,1,2,3,4,5,6,7,8,9,10,11],function (i, all) {
+          $('.apartaments').eq(all).fadeIn(1000);
+       });
     });
-    $('.apartaments').eq(6).css('display','none');
-    $('.apartaments').eq(7).css('display','none');
-    $('.apartaments').eq(8).css('display','none');
-    $('.apartaments').eq(9).css('display','none');
-    $('.apartaments').eq(10).css('display','none');
-    $('.apartaments').eq(11).css('display','none');
+        $.each([9,11,8,6,10,11],function (name) {
+            $('.apartaments').eq(name).hide();
+        })
 
+
+
+
+
+
+
+/*
     $('.show-more').click(function () {
         $('.load').fadeIn(1000);
         $('.apartaments').eq(6).delay(1500).fadeIn();
@@ -208,7 +206,8 @@ $(document).ready(function () {
         $('.apartaments').eq(10).delay(1500).fadeIn();
         $('.apartaments').eq(11).delay(1500).fadeIn();
         $('.load').fadeOut(500);
-    });
+    });*/
+
 
 
 
