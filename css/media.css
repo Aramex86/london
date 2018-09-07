@@ -1523,12 +1523,12 @@
     }
     .search-bottom li:nth-child(3) {
         display: inline-block;
-        width: 178px;
+        width: 176px;
         height: 35px;
         margin-bottom: 15px;
     }
     .checkout {
-        width: 178px;
+        width: 176px;
         margin-right: 0;
         height: 35px;
     }

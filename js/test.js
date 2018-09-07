@@ -164,6 +164,12 @@ $(document).ready(function () {
           $(this).removeClass('active');
        });
     });
+    $('.mobile-menu a').mouseover(function () {
+        $(this).addClass('active');
+        $('.mobile-menu a').mouseleave(function () {
+            $(this).removeClass('active');
+        });
+    });
 
    $('.day').click(function () {
      $.each([6,4,8,2,10,11],function (i ,hide) {
@@ -188,25 +194,37 @@ $(document).ready(function () {
     });
         $.each([9,11,8,6,10,11],function (name) {
             $('.apartaments').eq(name).hide();
-        })
+        });
+            $('.social img').eq(0).mouseover(function () {
+                $(this).attr("src","image/bxarrows/footerfacebookhover.png");
+               $(this).mouseleave(function () {
+                   $(this).attr("src","image/bxarrows/footerfacebook.png");
+               }) ;
+                   });
+                $('.social img').eq(1).mouseover(function () {
+                $(this).attr("src","image/bxarrows/footertwiterhover.png");
+                $(this).mouseleave(function () {
+                    $(this).attr("src","image/bxarrows/footertwiterwhite.png");
+                }) ;
+            });
+                   $('.social img').eq(2).mouseover(function () {
+                $(this).attr("src","image/bxarrows/footergooglehover.png");
+                       $(this).mouseleave(function () {
+                           $(this).attr("src","image/bxarrows/footergoogle.png");
+                       }) ;
+            });
+                   $('.social img').eq(3).mouseover(function () {
+                $(this).attr("src","image/bxarrows/footerlinkinhover.png");
+                       $(this).mouseleave(function () {
+                           $(this).attr("src","image/bxarrows/footerlinkin.png");
+                       }) ;
+            });
 
 
 
 
 
 
-
-/*
-    $('.show-more').click(function () {
-        $('.load').fadeIn(1000);
-        $('.apartaments').eq(6).delay(1500).fadeIn();
-        $('.apartaments').eq(7).delay(1500).fadeIn();
-        $('.apartaments').eq(8).delay(1500).fadeIn();
-        $('.apartaments').eq(9).delay(1500).fadeIn();
-        $('.apartaments').eq(10).delay(1500).fadeIn();
-        $('.apartaments').eq(11).delay(1500).fadeIn();
-        $('.load').fadeOut(500);
-    });*/
 
 
 
