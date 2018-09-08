@@ -436,6 +436,17 @@
     .mobile-menuwrap {
         display: none;
     }
+    .singup-form {
+        width: 24%;
+        position: absolute;
+        left: 40%;
+        z-index: 99999;
+        background-color: rgba(69, 136, 242, 0.81);
+        border-radius: 2%;
+        padding-bottom: 25px;
+        margin-top: 52px;
+        display: none;
+    }
 
     /*end mobile menu*/
     .slider-intro h2 {
@@ -945,6 +956,17 @@
         height: 18%;
         width: 55%;
     }
+    .singup-form {
+        width: 30%;
+        position: absolute;
+        left: 40%;
+        z-index: 99999;
+        background-color: rgba(69, 136, 242, 0.81);
+        border-radius: 2%;
+        padding-bottom: 25px;
+        margin-top: 52px;
+        display: none;
+    }
     /*mobile-menu*/
     .contactwrap{
         display: none;
@@ -1207,6 +1229,17 @@
         height: 18.5%;
         width: 55%;
     }
+    .singup-form {
+        width: 40%;
+        position: absolute;
+        left: 35%;
+        z-index: 99999;
+        background-color: rgba(69, 136, 242, 0.81);
+        border-radius: 2%;
+        padding-bottom: 25px;
+        margin-top: 52px;
+        display: none;
+    }
 }
 @media screen and (max-width: 425px){
     .title h3 {
@@ -1214,6 +1247,31 @@
         font-family: Montserrat,sans-serif;
         font-weight: bolder;
         color: #dcdcdc61;
+    }
+    .arrowback {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 42px;
+        right: 11px;
+        background-color: rgba(212, 212, 212, 0.31);
+        border-radius: 50%;
+        background-image: url(../image/backarrowtop.png);
+        background-repeat: no-repeat;
+        background-position: 4px -1px;
+        text-align: center;
+        z-index: 9999;
+        display: none;
+    }
+    .arrowback button {
+        background-color: initial;
+        border: none;
+        width: 100%;
+        height: 100%;
+        color: rgb(0, 196, 255);
+        line-height: 51px;
+        font-weight: bold;
+        font-size: 14px;
     }
     .title h4 {
         font-size: 25px;
@@ -1489,6 +1547,17 @@
         width: 321px;
         height: 333px;
     }
+    .singup-form {
+        width: 57%;
+        position: absolute;
+        left: 25%;
+        z-index: 99999;
+        background-color: rgba(69, 136, 242, 0.81);
+        border-radius: 2%;
+        padding-bottom: 25px;
+        margin-top: 52px;
+        display: none;
+    }
 }
 @media screen and (max-width: 360px){
     .guest {
@@ -1606,6 +1675,25 @@
     }
     .article-text{
         margin-top: 100%;
+    }
+    .singup-form {
+        width: 64%;
+        position: absolute;
+        left: 19%;
+        z-index: 99999;
+        background-color: rgba(69, 136, 242, 0.81);
+        border-radius: 2%;
+        padding-bottom: 25px;
+        margin-top: 52px;
+        display: none;
+    }
+    .singup-form h4 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: Montserrat, sans-serif;
+        padding: 14px 0;
     }
 
 }

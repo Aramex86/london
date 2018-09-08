@@ -220,8 +220,30 @@ $(document).ready(function () {
                        }) ;
             });
 
-
-
+            $(".sing-btn").click(function () {
+                $('.wrap').fadeTo(1000,0.4);
+                $('.singup-form').css({
+                    opacity:100,
+                });
+                $('.singup-form').fadeIn(500);
+            });
+                $('.closeform').click(function () {
+                   $('.singup-form').fadeOut(100);
+                   $('.wrap').fadeTo(1000,100);
+                });
+            $(window).scroll(function () {
+               var height = $(window).scrollTop();
+               if(height > 150){
+                   $('#topscroll').fadeIn(200);
+               }else {
+                   $('#topscroll').fadeOut(200);
+               }
+            });
+                $('#topscroll').click(function (event) {
+                    event.preventDefault();
+                    $('html, body').animate({scrollTop:0},'slow');
+                    return false
+                });
 
 
 
