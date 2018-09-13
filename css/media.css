@@ -1313,7 +1313,10 @@
         font-size: 14px;
     }
     .hoverroomtop ul:nth-child(1) {
-        padding-top: 144px;
+        padding-top: 110px;
+    }
+    .hoveradresstop{
+        font-size: 13px;
     }
     .title h4 {
         font-size: 25px;
