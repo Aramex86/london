@@ -1349,6 +1349,20 @@
         margin-bottom: 55px;
         position: relative;
     }
+    .reset button{
+        width: 152px;
+        height: 50px;
+        background-color: #4588f2;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+        letter-spacing: 5px;
+        text-align: center;
+        padding-left: 17px;
+        margin-top: 30px;
+    }
     .hoverroom ul:nth-child(1) {
         padding-top: 127px;
     }

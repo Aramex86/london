@@ -345,6 +345,7 @@ $(document).ready(function () {
            $(france).filter(':eq(0),:eq(1)').hide();
            $(rome).filter(':eq(0)').hide();
            $(denmark).filter(':eq(0),:eq(1)').hide();
+           $('.location').val(0);
            $('#clear').css('display','inline-block');
        }else if($('.location').val() == 1 && $('.guest').val()==3 && $('.room').val()==3) {
            $(london).eq(3).fadeIn(500);
@@ -353,6 +354,7 @@ $(document).ready(function () {
            $(france).filter(':eq(0),:eq(1)').hide();
            $(rome).filter(':eq(0)').hide();
            $(denmark).filter(':eq(0),:eq(1)').hide();
+           $('.location').val(0);
            $('#clear').css('display','inline-block');
        }else if($('.location').val() == 1 && $('.guest').val()==4 && $('.room').val()==4) {
             $(london).eq(1).fadeIn(500);
