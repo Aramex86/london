@@ -137,6 +137,12 @@
         position: absolute !important;
         top: 34% !important;
     }
+    .wrap-top {
+        margin-top: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
     .location {
         width: 400px;
@@ -365,6 +371,12 @@
         justify-content: unset;
         width: 135px;
     }
+    .wrap-top {
+        margin-top: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
     .mobile-menuwrap {
         height: 100vh;
@@ -498,7 +510,7 @@
 
     .location {
         width: 100%;
-        padding: 0 25px;
+        padding: 0 56px;
         margin-bottom: 15px;
     }
 
@@ -727,7 +739,7 @@
     }
     .location{
         width: 100%;
-        padding: 0 25px;
+        padding: 0 56px;
         margin-bottom: 15px;
     }
     .guest {
@@ -1084,8 +1096,17 @@
         background-position: 20px;
         border: 1px solid #f0f0f0;
     }
-
-
+    .wrap-top {
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .aptop {
+        width: 88%;
+        margin-bottom: 55px;
+        position: relative;
+    }
     .guest {
         width: 320px;
         height: 35px;
@@ -1096,6 +1117,24 @@
         background-position: 8px;
         color: #9e9e9e;
         background-color: white;
+    }
+    .like {
+        width: 50px;
+        height: 50px;
+        background-color: #dde6f2;
+        position: absolute;
+        left: 85%;
+        top: 64%;
+        border-radius: 50px;
+        background-image: url(../image/likeheart.png);
+        background-repeat: no-repeat;
+        background-position: 15px;
+        background-size: 20px;
+        z-index: 99999;
+        display: none;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 163px;
     }
     .room {
         width: 312px;
@@ -1272,6 +1311,9 @@
         line-height: 51px;
         font-weight: bold;
         font-size: 14px;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 144px;
     }
     .title h4 {
         font-size: 25px;

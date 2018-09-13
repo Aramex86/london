@@ -253,6 +253,13 @@
 .searchform-topwrap ul{
     padding-bottom: 20px;
 }
+.search-apatraments{
+    width: 100%;
+    outline: 1px solid black;
+    background-color: white;
+    margin-top: 180px;
+}
+
 .location{
     width: 500px;
     height: 50px;
@@ -261,13 +268,9 @@
     background-repeat: no-repeat;
     background-position: 20px;
     border: 1px solid #f0f0f0;
+    color: #9e9e9e;
 }
-input::placeholder{
-    padding-left: 50px;
-}
-input::-moz-placeholder{
-    padding-left: 50px;
-}
+
 .guest{
     width: 274px;
     height: 49px;
@@ -514,15 +517,19 @@ select {
     width: 100%;
     text-align: center;
     margin-top: 50px;
-
 }
-
+.wrap-top{
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .more-ap button{
     border: 2px solid #2c3e50;
     width: 159px;
     height: 50px;
-    margin-top: 71px;
+    margin-top: -15px;
     background-color: initial;
     font-family: Montserrat, sans-serif;
     color: #2c3e50;
@@ -533,6 +540,88 @@ select {
 .more-ap button:hover{
     background-color: rgba(69, 136, 242, 0.31);
     color: #ffff;
+}
+.aptop{
+    width: 45%;
+    margin-bottom: 55px;
+    position: relative;
+}
+.aptop p{
+    color: #aab2bd;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.aptop img{
+    width: 100%;
+    height: 80%;
+}
+.aptop h4{
+    font-size: 21px;
+    font-family: Montserrat, sans-serif;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hoverroomtop{
+    background-color: rgba(0, 0, 0, 0.51);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    display: none;
+}
+.hoverroomtop img{
+    width: 18px !important;
+    height: 17px !important;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+.reset{
+    width: 100%;
+    text-align: center;
+}
+#clear{
+    display: none;
+}
+.reset button{
+    width: 152px;
+    height: 50px;
+    background-color: #4588f2;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-left: 17px;
+}
+.hoverroomtop li{
+    padding-bottom: 7px;
+}
+.hoverroomtop ul:nth-child(1) {
+    padding-top: 290px;
+}
+.hoveradresstop img {
+    width: 11px!important;
+    height: 16px!important;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.hoverroomtop span:after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid white;
+    width: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
 }
 .apartamentswrap{
     display: flex;
