@@ -112,11 +112,7 @@ $(document).ready(function () {
     /***************************
      * aptop
      */
-    $('.aptop').find($('.like')).css({
-        left:580,
-        top:408,
-
-    });
+    $('.aptop').find($('.like')).hide();
     $(".aptop:eq(0) img:nth-child(1)").mouseover(function () {
         $(".hoverroomtop:eq(0)").fadeIn(500);
         $(".hoverroomtop:eq(0)").mouseleave(function () {

@@ -44,6 +44,9 @@
     .hoverroom ul:nth-child(1) {
         padding-top: 187px;
     }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 249px;
+    }
     .sliderwrap a:nth-child(2){
         right: -2%;
         background-image: url(../image/arrowright.png);
@@ -123,6 +126,9 @@
         font-family: Montserrat, sans-serif;
         font-weight: bold;
         font-size: 16px;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 212px;
     }
 
     .slider-intro h2 {
@@ -376,6 +382,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 152px;
     }
 
     .mobile-menuwrap {
@@ -723,11 +732,25 @@
     .searchform-topwrap li {
          display: block;
     }
+    .wrap-top {
+        margin-top: 264px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
     .search-top{
         width: 100%;
     }
+    .aptop {
+        width: 100%;
+        margin-bottom: 55px;
+        position: relative;
+    }
     .search-top li{
         padding: 0 54px;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 239px;
     }
     .search-top li:nth-child(2){
         display: inline-block;
@@ -1313,7 +1336,7 @@
         font-size: 14px;
     }
     .hoverroomtop ul:nth-child(1) {
-        padding-top: 110px;
+        padding-top: 138px;
     }
     .hoveradresstop{
         font-size: 13px;
@@ -1666,6 +1689,9 @@
         font-weight: bolder;
         color: #dcdcdc;
         opacity: 0.4;
+    }
+    .hoverroomtop ul:nth-child(1) {
+        padding-top: 117px;
     }
     .hoverroom {
         background-color: rgba(0, 0, 0, 0.51);
